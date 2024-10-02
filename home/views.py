@@ -8,12 +8,12 @@ def index(request):
 
 
 def about(request):
-    return HttpResponse("This is About page of application")
+    return render(request, "about.html")
 
 
 def services(request):
-    return HttpResponse("This is Services page of application")
+    return render(request, "services.html")
 
 
 def contact(request):
-    return HttpResponse("This is Contact page of application")
+    return render(request, "contact.html")
