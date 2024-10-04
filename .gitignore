@@ -1,0 +1,69 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Database
+*.sqlite3
+*.db
+*.db-journal
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Static files
+/static/
+media/
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Coverage reports
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# Pytest
+.cache/
+*.egg-info/
+dist/
+build/
+
+# Other files
+*.DS_Store
+*.egg
+*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local settings
+local_settings.py
+
+# Virtual environment
+venv/
+env/
+.env/
