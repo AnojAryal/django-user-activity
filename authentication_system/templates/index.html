@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Final Boss</title>
-
+  <title>Logged in user</title>
 </head>
 <body>
-    <h1> hello </h1>
+welcome {{request.user}}
+<p>hello {{request.user}} welcome to the dashboard, Now you can build further.</p>
+<a href="/logout">Logout</a>
 </body>
 </html>
